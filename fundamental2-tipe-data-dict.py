@@ -21,6 +21,7 @@ data_dari_server_gojek = {
     ]
 }
 print(data_dari_server_gojek)
+print(data_dari_server_gojek['tanggal'])
 print(f"\nDriver disekitar sini {data_dari_server_gojek['driver_list']}")
 print(f"Driver #1 {data_dari_server_gojek['driver_list'][0]}")
 print(f"Driver #4 {data_dari_server_gojek['driver_list'][3]}")
